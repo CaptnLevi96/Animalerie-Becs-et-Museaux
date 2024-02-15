@@ -1,0 +1,138 @@
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .contenu .carte{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.main .contenu .carte .gauche{
+    flex: 0 0 30%;
+}
+
+.main .contenu .carte .droite{
+    flex: 0 0 30%;
+}
+
+.nav .onglets{
+    margin-left: 300px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    padding-bottom: 10px;
+}
+
+.nav .onglets a
+{text-decoration: none;
+color: #000;
+margin-right: 10px;
+border-bottom: 3px solid #000;
+padding-bottom: 5px;}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../Images/animalerie.jpg');
+    background-size: cover;
+    padding: 40px;
+}
+
+.header h1{
+    font-family: Cambria, Cochin, 
+    Georgia, Times, 'Times New Roman', 
+    serif;
+    font-size: 50px;
+}
+
+.header h4{
+    margin-top: -20px; 
+    font-size: 20px;
+    border-bottom: 1px #6f6f6f;}
+
+    .header button{
+        padding: 10px 20px;
+        background-color: #000;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma,
+         Geneva, Verdana, 
+         sans-serif;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .main .contenu .carte .droite img{
+        height: 300px;
+        width: 400px;
+    }
+
+    .main .contenu .carte .gauche{
+        flex: 0 0 30%;
+        padding: 20px;
+        background-color: darkblue;
+        color: #ffffff;
+    }
+
+    .main .contenu .carte .droite{
+        flex: 0 0 30%;
+    }
+
+    .main .contenu{
+        margin: auto;
+    }
+
+    .footer{
+        margin-top: 20px;
+        border-top:#6f6f6f 5px solid;
+        background-color: darkblue;
+        color: #ffffff;
+        padding: 30px 50px;
+    }
+
+    .footer .infos .info h3{
+        font-family: 'Franklin Gothic Medium', 
+        'Arial Narrow', Arial, sans-serif;}
+
+    .footer a{
+        color: #ffffff;
+    }
+
+    .footer .infos{
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .footer .infos .info{
+        flex: 0 0 45%;
+        padding: 10px;
+    }
+
+    footer .infos .info li{
+        list-style-type: none;
+    }
+
+    footer .infos .info h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-bottom: 3px solid white;
+        width: 40%;
+        padding-bottom: 5px;
+    }
